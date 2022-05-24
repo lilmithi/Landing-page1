@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  max-width: 1500px;
+  padding: 0 60px;
+  align-items: center;
+  margin: 0 auto;
+  height: max-content;
+}
+.header .image {
+  width: 250px;
+  height: 110px;
+  background-color: gray;
+  color: #e5e7eb;
+  display: flex;
+  margin: 30px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: flex-start;
+  padding: 0 60px 0 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  padding: 0px 80px;
+}
+.navbar ul li {
+  margin-left: 20px;
+  padding: 5px;
+}
+.navbar ul li:hover {
+  background-color: #92afe6;
+}
+.header {
+  background-color: #1f2937;
+  padding: 0 80px;
+  display: flex;
+}
+h1 {
+  margin: 10px 30px 0px 60px;
+  color: #f9faf8;
+}
+
+.subtext,
+.sign-up-1 {
+  max-width: 500px;
+  margin: 10px 60px 5px 60px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.sign-up-1 {
+  background-color: #3882f6;
+  border-radius: 7px;
+  width: 100px;
+  border: thin #3882f6;
+  margin-top: auto;
+  margin-bottom: 36px;
+}
+.sign-up-1:hover {
+  background-color: midnightblue;
+}
+.text {
+  align-self: center;
+  font-size: small;
+  padding-left: 4px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 0;
+  max-width: fit-content;
+  margin: 10px auto;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.boxes img {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: solid 2px #3882f6;
+  border-radius: 10px;
+}
+.caption {
+  font-size: x-small;
+  max-width: fit-content;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.Thor {
+  display: flex;
+  padding: 60px;
+  margin: 30px auto 0 auto;
+  background-color: #e5e7eb;
+  max-width: max-content;
+  padding: 0 215px 0 215px;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  font-style: italic;
+  flex-wrap: wrap;
+}
+.Thor .endnote {
+  margin-left: auto;
+  margin-top: -30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.call-to {
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.call-to .action1 {
+  font-weight: bold;
+}
+.call-to .final {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  max-width: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to .sign-up2 {
+  margin-left: 50px;
+  background-color: #3882f6;
+  border-radius: 7px;
+  width: 120px;
+  border: thin solid #e5e7eb;
+  color: #e5e7eb;
+  padding: 10px 10px;
+}
+footer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 30px;
+}
